@@ -1,175 +1,202 @@
-body{
+body {
     background-color: #eaf0f7;
 }
 
-.navb{
+.navb {
     padding-top: 15px;
     width: 100%;
     background-color: #1a253f;
     height: 62.5px;
-    
+
 }
 
 .nav-content {
-    
+
     margin-left: 15px;
-    color:white;
+    color: white;
     font-size: 20px;
     text-decoration: none;
-    
+
 }
 
-.logo{
+.logo {
     width: 25px;
     margin-left: 10%;
-    
+
 }
 
 
 
-.main-content{
+.main-content {
     margin: 1% 7%;
     background-color: #ffffff;
 }
 
-.main-content h4{
+.main-content h4 {
     font-size: x-large;
     padding-left: 3%;
 }
 
-.card-top{
+.btt {
+    width: 19%;
+    height: 5vh;
+    border: none;
+}
+
+#t1 {
+    margin-left: 1%;
+
+    background-color: rgb(246, 198, 8);
+}
+
+#t2 {
+    background-color: rgb(29, 220, 245);
+}
+
+#t3 {
+    background-color: rgb(37, 254, 117);
+}
+
+#t4 {
+    background-color: rgb(255, 33, 196);
+}
+
+#t5 {
+    background-color: #1a253f;
+}
+
+.card-top {
     display: flex;
     height: 350px;
     background-color: #1a253f;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 50%;
-    margin-top: 5%;
 }
 
-.card-top p{
-    color: #b6c2e4;;
+.card-top p {
+    color: #ffffff;
 }
 
-.c1{
-    flex:2;
+.c1 {
+    flex: 2;
 }
 
-.c2{
-    flex:1;
+.c2 {
+    flex: 1;
     padding-top: 5%;
     padding-right: 10%;
     text-align: end;
 }
 
-.card-top img{
+.card-top img {
     margin-top: 4%;
     margin-left: 5%;
     width: 100px;
     border-radius: 50%;
 }
 
-.name{
+.name {
     font-weight: bold;
     font-size: x-large;
-    color: #b6c2e4;
+    color: #ffffff;
 }
 
-.ah{
+.ah {
     font-weight: bold;
     margin-left: 3%;
     color: #ffffff;
 }
 
-.c1 p{
+.c1 p {
     font-weight: bold;
     font-style: italic;
     margin-left: 3%;
     color: #ffffff;
 }
 
-#printcv{
+#printcv {
     margin: 1% 5%;
     border-radius: 5%;
     width: 17%;
     height: 5vh;
-    background-color: rgba(77, 121, 246, 0.1);;
-    color:#4d79f6;
+    background-color: rgba(77, 121, 246, 0.1);
+    color: #4d79f6;
     border: none;
 }
 
 
-#printcv:hover{
+#printcv:hover {
     border-radius: 5%;
     width: 17%;
     height: 5vh;
     background-color: #4d79f6;
-    color: #ffffff;
+    color: #000;
     border: none;
 }
 
-.eskills{
+.eskills {
     padding: 1% 5%;
     display: flex;
 }
 
-.edu div{
-    padding-left: 5%;
-    border-left:blue dashed 0.5px;
-}
-
-.skills div{
+.edu div {
     padding-left: 5%;
     border-left: blue dashed 0.5px;
 }
 
-.heade{
+.skills div {
+    padding-left: 5%;
+    border-left: blue dashed 0.5px;
+}
+
+.heade {
     color: #50649c;
 }
 
-.eduyear{
+.eduyear {
     color: #50649c;
-    text-decoration:underline ;
+    text-decoration: underline;
 
 }
 
-.educlass{
+.educlass {
     color: #1a253f;
     font-weight: bold;
 }
 
-.eduuni{
+.eduuni {
     color: #50649c;
     font-style: oblique;
 
 }
 
-.alignedu{
+.alignedu {
     display: flex;
 }
 
-.skills-bar{
+.skills-bar {
     width: 50%;
     padding: 2% 1%;
 }
 
-.skills-bar .bar{
+.skills-bar .bar {
     margin: 2.2rem 0;
 }
 
-.skills-bar .bar:first-child{
+.skills-bar .bar:first-child {
     margin-top: 0px;
 }
 
-.skills-bar .bar .info{
+.skills-bar .bar .info {
     margin-bottom: 5px;
 }
 
-.skills-bar .bar .info span{
+.skills-bar .bar .info span {
     font-size: 1.1rem;
     font-weight: 500;
 }
 
-.progress-line{
+.progress-line {
     width: 100%;
     height: 12px;
     background: #f0f0f0;
@@ -179,7 +206,7 @@ body{
 
 }
 
-.progress-line span{
+.progress-line span {
     height: 100%;
     width: 80%;
     background: #4d79f6;
@@ -187,79 +214,132 @@ body{
     border-radius: 10px;
 }
 
-.bar .progress-line span::after{
+.bar .progress-line span::after {
     position: absolute;
     right: 0;
     top: -35px;
-    color:#50649c;
+    color: #50649c;
 }
 
-.progress-line.html span::after{
-    content:"90%";
+.progress-line.html span::after {
+    content: "90%";
 }
 
-.progress-line.reactjs span::after{
-    content:"70%";
+.progress-line.reactjs span::after {
+    content: "70%";
 }
 
-.progress-line.python span::after{
-    content:"80%";
+.progress-line.python span::after {
+    content: "80%";
 }
 
-.progress-line.java span::after{
-    content:"60%";
+.progress-line.java span::after {
+    content: "60%";
 }
 
-.progress-line.html span{
-    width:90%;
+.progress-line.html span {
+    width: 90%;
 }
 
-.progress-line.reactjs span{
-    width:70%;
+.progress-line.reactjs span {
+    width: 70%;
 }
 
-.progress-line.python span{
-    width:80%;
+.progress-line.python span {
+    width: 80%;
 }
 
-.progress-line.java span{
-    width:60%;
+.progress-line.java span {
+    width: 60%;
 }
 
-.contact-me{
+.contact-me {
     display: flex;
 }
 
-.contact-details p{
+.contact-details p {
     padding-left: 5%;
 }
 
-.contact-bold{
+.contact-bold {
     font-weight: bold;
 }
 
-.contact-i{
+.contact-i {
     font-style: italic;
 }
 
 
 
-textarea{
+textarea {
     resize: none;
     width: 80%;
 }
-.contact1{
+
+.contact1 {
     display: flex;
-    
+
 }
 
-footer{
+footer {
     font-size: 14px;
-    color:#50649c;
+    color: #50649c;
     padding-top: 15px;
-    height:55px;
+    height: 55px;
     text-align: center;
     background-color: #d9ecec;
     line-height: 1.6;
-    
+
 }
+
+
+@media only screen and (max-width: 350px) and (min-width:0px) {
+    .eskills {
+        display: contents;
+
+    }
+
+    .contact-me {
+        display: block;
+    }
+
+    #printcv {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 400px) and (min-width: 350px) {
+    .eskills {
+        display: contents;
+
+    }
+
+    .contact-me {
+        display: block;
+    }
+
+    #printcv {
+        width: 21%;
+    }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 350px) {
+
+    .card-top p{
+        font-size: small;
+    }
+    .eskills {
+        display: contents;
+
+    }
+
+    .contact-me {
+        display: block;
+    }
+
+    #printcv {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1080px) and (min-width: 700px) {}
