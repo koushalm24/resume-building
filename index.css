@@ -328,6 +328,11 @@ footer {
     .card-top p{
         font-size: small;
     }
+
+    .btt{
+        width:18%;
+    }
+
     .eskills {
         display: contents;
 
