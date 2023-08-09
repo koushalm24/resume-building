@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Creating resume for MCA 2024" name="description" />
+    <meta content="Stark" name="author" />
+    <title>Koushal Sharma</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <nav class="navb">
+        <div>
+            <img class="logo" src="images/favicon.ico" alt="logo">
+            <a class="nav-content" href="#">SCHOOL OF COMPUTERS</a>
+
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <!-- Black Card  -->
+        <div class="card-top">
+            <div class="c1">
+                <img src="images/profile.jpg" alt="">
+                <span class="name">Koushal Sharma</span>
+                <hr>
+                <h4 class="ah">About Me !!</h4>
+                <p>I am a Fresher Front End Web Developer. I recently completed MCA from IPS Academy.</p>
+                <p> I use to code in Python.</p>
+
+
+            </div>
+
+            <div class="c2">
+                <!-- <p>Phone : 7974001385</p>
+                    <p>Email : skoushal4301@gmail.com</p> -->
+                <p>Name : Koushal Sharma</p>
+                <p>Date of Birth : 04 March 2001</p>
+                <p>Spoken Languages : English - Hindi</p>
+                <p>Nationality : India</p>
+                <p>Intrest : Coding, Music, Sports</p>
+            </div>
+        </div>
+        <button id="printcv" onclick="window.print()" >Download CV</button>
+
+        <!-- Education & Skils -->
+        <h4>Education &amp; Skills</h4>
+        <div class="eskills">
+
+            <div class="alignedu">
+
+                <div class="edu">
+                    <h3 class="heade">Education</h3>
+                    <div>
+                        <p class="eduyear">2018</p>
+                        <p class="educlass">12th</p>
+                        <p class="eduuni">Madhy Pradesh Board of Secondary Education, Bhopal</p>
+                    </div>
+                    <br>
+                    <div>
+
+                        <p class="eduyear">2018 - 2021</p>
+                        <p class="educlass">Bachelor of Computer Science</p>
+                        <p class="eduuni">Barkatullah Vishwavidhyalay Bhopal</p>
+                    </div>
+                    <br>
+                    <div>
+
+                        <p class="eduyear">2021 - 2023</p>
+                        <p class="educlass">Masters of Computer Application</p>
+                        <p class="eduuni">IPS Academy, Indore</p>
+                    </div>
+
+                </div>
+                <div class="skills">
+                    <h3 class="heade">Experience</h3>
+
+                    <div>
+
+                        <p class="eduyear">Apr 23 - May 23</p>
+                        <p class="educlass">Web Development and Design</p>
+                        <p class="eduuni">Oasis InfoByte</p>
+                    </div>
+
+                    <br>
+                    <div>
+
+                        <p class="eduyear">May 23 - June 23</p>
+                        <p class="educlass">Web Developer</p>
+                        <p class="eduuni">InternPe</p>
+                    </div>
+                    <br>
+                    <div>
+
+                        <p class="eduyear">June 23 - Now</p>
+                        <p class="educlass">ReactJS Developer</p>
+                        <p class="eduuni">Stark Technologies</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="skills-bar">
+                <div class="bar">
+                    <div class="info">
+                        <span>HTML &amp; CSS</span>
+                    </div>
+                    <div class="progress-line html"><span></span></div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <span>React JS</span>
+                    </div>
+                    <div class="progress-line reactjs"><span></span></div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <span>Python</span>
+                    </div>
+                    <div class="progress-line python"><span></span></div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <span>Java</span>
+                    </div>
+                    <div class="progress-line java"><span></span></div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Contact me  -->
+        <h4>Contact Me</h4>
+        <div class="contact-me">
+            <div class="contact-details mx-5">
+                <br>
+                <p class="contact-bold">Call </p>
+                <p class="contact-i">+91 7974001385</p>
+                <br>
+                
+                <p class="contact-bold">Mail</p>
+                <p class="contact-i">skoushal4301@gmail.com</p>
+                <br>
+                <p class="contact-bold">Address</p>
+                <p class="contact-i">10880, Malibu Point - Point Dume, Malibu</p>
+            </div>
+
+            <div class="contact-form mx-5">
+             
+
+                    <div class="mb-3 contact1 py-1 ">
+                        <div>
+
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="mx-3">
+
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                        <button type="submit" class="btn btn-primary my-2">Submit</button>
+                    </div>
+
+               
+            </div>
+
+        </div>
+
+
+
+
+        <footer> 2023, Designed By STARK</footer>
+    </div>
+
+    <script src="index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

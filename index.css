@@ -1,0 +1,265 @@
+body{
+    background-color: #eaf0f7;
+}
+
+.navb{
+    padding-top: 15px;
+    width: 100%;
+    background-color: #1a253f;
+    height: 62.5px;
+    
+}
+
+.nav-content {
+    
+    margin-left: 15px;
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.logo{
+    width: 25px;
+    margin-left: 10%;
+    
+}
+
+
+
+.main-content{
+    margin: 1% 7%;
+    background-color: #ffffff;
+}
+
+.main-content h4{
+    font-size: x-large;
+    padding-left: 3%;
+}
+
+.card-top{
+    display: flex;
+    height: 350px;
+    background-color: #1a253f;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 50%;
+    margin-top: 5%;
+}
+
+.card-top p{
+    color: #b6c2e4;;
+}
+
+.c1{
+    flex:2;
+}
+
+.c2{
+    flex:1;
+    padding-top: 5%;
+    padding-right: 10%;
+    text-align: end;
+}
+
+.card-top img{
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.name{
+    font-weight: bold;
+    font-size: x-large;
+    color: #b6c2e4;
+}
+
+.ah{
+    font-weight: bold;
+    margin-left: 3%;
+    color: #ffffff;
+}
+
+.c1 p{
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 3%;
+    color: #ffffff;
+}
+
+#printcv{
+    margin: 1% 5%;
+    border-radius: 5%;
+    width: 17%;
+    height: 5vh;
+    background-color: rgba(77, 121, 246, 0.1);;
+    color:#4d79f6;
+    border: none;
+}
+
+
+#printcv:hover{
+    border-radius: 5%;
+    width: 17%;
+    height: 5vh;
+    background-color: #4d79f6;
+    color: #ffffff;
+    border: none;
+}
+
+.eskills{
+    padding: 1% 5%;
+    display: flex;
+}
+
+.edu div{
+    padding-left: 5%;
+    border-left:blue dashed 0.5px;
+}
+
+.skills div{
+    padding-left: 5%;
+    border-left: blue dashed 0.5px;
+}
+
+.heade{
+    color: #50649c;
+}
+
+.eduyear{
+    color: #50649c;
+    text-decoration:underline ;
+
+}
+
+.educlass{
+    color: #1a253f;
+    font-weight: bold;
+}
+
+.eduuni{
+    color: #50649c;
+    font-style: oblique;
+
+}
+
+.alignedu{
+    display: flex;
+}
+
+.skills-bar{
+    width: 50%;
+    padding: 2% 1%;
+}
+
+.skills-bar .bar{
+    margin: 2.2rem 0;
+}
+
+.skills-bar .bar:first-child{
+    margin-top: 0px;
+}
+
+.skills-bar .bar .info{
+    margin-bottom: 5px;
+}
+
+.skills-bar .bar .info span{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.progress-line{
+    width: 100%;
+    height: 12px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 1px 1px #50649c, 0px 1px #50649c;
+
+}
+
+.progress-line span{
+    height: 100%;
+    width: 80%;
+    background: #4d79f6;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.bar .progress-line span::after{
+    position: absolute;
+    right: 0;
+    top: -35px;
+    color:#50649c;
+}
+
+.progress-line.html span::after{
+    content:"90%";
+}
+
+.progress-line.reactjs span::after{
+    content:"70%";
+}
+
+.progress-line.python span::after{
+    content:"80%";
+}
+
+.progress-line.java span::after{
+    content:"60%";
+}
+
+.progress-line.html span{
+    width:90%;
+}
+
+.progress-line.reactjs span{
+    width:70%;
+}
+
+.progress-line.python span{
+    width:80%;
+}
+
+.progress-line.java span{
+    width:60%;
+}
+
+.contact-me{
+    display: flex;
+}
+
+.contact-details p{
+    padding-left: 5%;
+}
+
+.contact-bold{
+    font-weight: bold;
+}
+
+.contact-i{
+    font-style: italic;
+}
+
+
+
+textarea{
+    resize: none;
+    width: 80%;
+}
+.contact1{
+    display: flex;
+    
+}
+
+footer{
+    font-size: 14px;
+    color:#50649c;
+    padding-top: 15px;
+    height:55px;
+    text-align: center;
+    background-color: #d9ecec;
+    line-height: 1.6;
+    
+}
